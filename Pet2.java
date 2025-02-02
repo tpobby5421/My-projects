@@ -7,12 +7,12 @@ public class Pet2 {
         this.setName("");
     }
 
-    // Public setter (mutator) method
+    // Public mutator method
     public void setName(String newName) {
         this.name = newName;
     }
 
-    // Public getter (accessor) method
+    // Public accessor method
     public String getName() {
         return this.name;
     }
