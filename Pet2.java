@@ -1,9 +1,9 @@
-public class Pet2 {   
+public class Pet {   
     // Private data fields
     private String name;
 
     // Public constructor
-    public Pet2() {
+    public Pet() {
         this.setName("");
     }
 
