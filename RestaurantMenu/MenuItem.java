@@ -10,7 +10,10 @@ public MenuItem(int itemID, string name, string category, short calories, float 
     this.name = name;
     this.category = category;
     this.price = price;
-    setcalories(calories)
+    setcalories(calories);
+    setprice(price);
+public string toString(){
+    String formatted = String.format(format
 }
 
 
